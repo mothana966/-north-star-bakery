@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<meta content="North Star Bakery: fresh bread, pastries, cakes, and local pre-orders." name="description"/>
+<title>Contact | North Star Bakery</title>
+<link href="styles.css" rel="stylesheet"/><script defer="True" src="site.js"></script></head>
+<body><a class="skip-link" href="#main-content">Skip to main content</a>
+<header class="site-header"><div class="header-inner">
+<a class="brand" href="index.html"><img alt="North Star Bakery logo" src="media/bakery-logo_c.png" width="150"/></a>
+<nav aria-label="Main navigation">
+<ul>
+<li><a href="index.html">Home</a></li>
+<li><a href="products.html">Products and Prices</a></li>
+<li><a href="about.html">About Our Bakery</a></li>
+<li><a aria-current="page" href="contact.html">Contact and Pre-Orders</a></li>
+</ul>
+</nav>
+</div></header>
+<main id="main-content"><p class="eyebrow">Questions and pickup requests</p><h1>Contact and Pre-Orders</h1>
+<p class="intro">Have a question or want to plan a pre-order? Share the details below. We will confirm availability before arranging pickup.</p>
+<div class="contact-layout"><section aria-labelledby="request"><h2 id="request">Send a Request</h2>
+<form action="#" id="request-form" method="post"><fieldset><legend>Your Contact Information</legend>
+<div class="form-field"><label for="full-name">Full name (required)</label><input aria-describedby="full-name-error" autocomplete="name" id="full-name" minlength="2" name="full_name" required="" type="text"/><p aria-live="polite" class="field-error" id="full-name-error"></p></div>
+<div class="form-field"><label for="email">Email address (required)</label><input aria-describedby="email-error" autocomplete="email" id="email" name="email" required="" type="email"/><p aria-live="polite" class="field-error" id="email-error"></p></div></fieldset>
+<fieldset><legend>Request Details</legend>
+<div class="form-field"><label for="request-type">Request type (required)</label><select aria-describedby="request-type-error" id="request-type" name="request_type" required=""><option value="">Choose a request type</option><option value="preorder">Pre-order</option><option value="question">General question</option></select><p aria-live="polite" class="field-error" id="request-type-error"></p></div>
+<div class="form-field"><label for="pickup-date">Preferred pickup date (required for pre-orders)</label><input aria-describedby="pickup-date-error" id="pickup-date" name="pickup_date" type="date"/><p aria-live="polite" class="field-error" id="pickup-date-error"></p></div>
+<div class="form-field"><label for="items">Your question or order details (required)</label><textarea aria-describedby="items-error" id="items" minlength="10" name="items" required="" rows="5"></textarea><p aria-live="polite" class="field-error" id="items-error"></p></div>
+<div class="form-field"><label for="allergies">Allergy notes (optional)</label><textarea id="allergies" name="allergies" rows="3"></textarea></div>
+<button class="secondary" id="add-favorites" type="button">Add my saved favorites</button><p aria-live="polite" class="status" id="favorite-import-status"></p></fieldset>
+<button type="submit">Check request</button><p class="note">This class website demonstrates the form but does not send a real order.</p>
+<p class="success" hidden="" id="form-result" role="status"></p></form></section>
+<aside aria-labelledby="location" class="panel"><h2 id="location">Location and Opening Hours</h2><p>You can find us near Market Street. We are open Monday through Friday, 7:00 a.m. to 5:00 p.m., and Saturday, 8:00 a.m. to 3:00 p.m. We are closed on Sunday.</p><p>For pre-orders, please include what you would like and your preferred pickup date.</p><p><a href="products.html">Browse products and save favorites</a></p></aside></div></main>
+<footer class="site-footer"><div class="footer-inner">
+<p>North Star Bakery | Freshly baked for our neighborhood.</p>
+<p><a href="contact.html">Ask a question or request a pre-order</a></p>
+</div></footer>
+</body>
+</html>

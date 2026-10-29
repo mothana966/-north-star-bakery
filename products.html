@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<meta content="North Star Bakery: fresh bread, pastries, cakes, and local pre-orders." name="description"/>
+<title>Products | North Star Bakery</title>
+<link href="styles.css" rel="stylesheet"/><script defer="True" src="site.js"></script></head>
+<body><a class="skip-link" href="#main-content">Skip to main content</a>
+<header class="site-header"><div class="header-inner">
+<a class="brand" href="index.html"><img alt="North Star Bakery logo" src="media/bakery-logo_c.png" width="150"/></a>
+<nav aria-label="Main navigation">
+<ul>
+<li><a href="index.html">Home</a></li>
+<li><a aria-current="page" href="products.html">Products and Prices</a></li>
+<li><a href="about.html">About Our Bakery</a></li>
+<li><a href="contact.html">Contact and Pre-Orders</a></li>
+</ul>
+</nav>
+</div></header>
+<main id="main-content"><p class="eyebrow">Everyday favorites</p>
+<h1>Our Products and Prices</h1>
+<p class="intro">Here are a few of the things we make. Prices vary by size and flavor. Save a favorite, then add your choices to a pre-order request.</p>
+<section aria-labelledby="products-title">
+<h2 id="products-title">Fresh from our kitchen</h2>
+<div class="product-grid">
+<article class="card"><img alt="Fresh bread loaves on display" loading="lazy" src="media/bakery-bread_c.png"/><h3>Fresh Bread</h3><p>Sandwich loaves and crusty artisan bread, baked in small batches.</p><p class="price">$5–$10 per loaf</p><button aria-pressed="false" class="favorite-button" data-favorite="bread" type="button">Save as favorite</button></article>
+<article class="card"><img alt="Assorted cookies and pastries on trays" loading="lazy" src="media/bakery-feature-large_c.png"/><h3>Pastries</h3><p>Croissants, rolls, cookies, and other small treats.</p><p class="price">$3–$7 each</p><button aria-pressed="false" class="favorite-button" data-favorite="pastries" type="button">Save as favorite</button></article>
+<article class="card"><img alt="Bakery display with breads and treats" loading="lazy" src="media/bakery-storefront_c.png"/><h3>Celebration Cakes</h3><p>Cakes for birthdays and family gatherings. Ask us about size and flavor.</p><p class="price">Starting at $25</p><button aria-pressed="false" class="favorite-button" data-favorite="cakes" type="button">Save as favorite</button></article>
+</div></section>
+<section aria-labelledby="saved-title" class="panel favorite-panel"><h2 id="saved-title">My saved favorites</h2><p class="note">Your choices stay on this browser, even if you close the page. They are not an order.</p><ul class="favorite-list" id="favorite-list"></ul><p aria-live="polite" class="status" id="favorite-status">No favorites saved yet.</p><a class="button-link" href="contact.html">Plan a pre-order</a></section>
+<section aria-labelledby="signature"><h2 id="signature">Our Signature Loaf</h2><figure><img alt="Round signature loaf with a crisp golden crust" class="media-img" loading="lazy" src="media/bakery-signature-loaf_c.png"/><figcaption>Our Signature Loaf has a crisp crust and soft center.</figcaption></figure></section></main>
+<footer class="site-footer"><div class="footer-inner">
+<p>North Star Bakery | Freshly baked for our neighborhood.</p>
+<p><a href="contact.html">Ask a question or request a pre-order</a></p>
+</div></footer>
+</body>
+</html>
